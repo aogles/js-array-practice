@@ -38,10 +38,13 @@ console.log(array)
 // ---------------------
 
 // Put your answer below -------------------------
-/* array.filter(function(currentValue, index, array), thisValue) */
+/* syntax array.filter(function(currentValue, index, array), 
+thisValue) */
 
 
-
+const arr = [3, "test", undefined, null,  5, false, "", 7, NaN];
+const newArray = arr.filter(Boolean);   
+console.log(newArray);
 
 
 
@@ -57,7 +60,15 @@ console.log(array)
 // ---------------------
 
 // Put your answer below -------------------------
+const newStudent = {
 
+    name:"Amber",
+    age: "27",
+    Class: "code school",
+};
+
+ newStudent.name
+ //'Amber
 
 
 
