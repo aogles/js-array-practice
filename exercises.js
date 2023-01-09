@@ -11,7 +11,7 @@ const arr = Array(7).fill("Hello",0);
 for (let i=0; i< arr.length; i++) {
 arr[1] = new Array(5).fill("Hello",0);
 }
-
+//
 
 
 // -----------------------------------------------
@@ -38,7 +38,7 @@ console.log(array)
 // ---------------------
 
 // Put your answer below -------------------------
-
+/* array.filter(function(currentValue, index, array), thisValue) */
 
 
 
