@@ -23,11 +23,10 @@ arr[1] = new Array(5).fill("Hello",0);
 
 // Put your answer below -------------------------
 
+const array = [0, 7, 9, 5]
+array.reverse()
 
-
-
-
-
+console.log(array)
 
 
 
