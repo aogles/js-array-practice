@@ -11,7 +11,16 @@ const arr = Array(7).fill("Hello",0);
 for (let i=0; i< arr.length; i++) {
 arr[1] = new Array(5).fill("Hello",0);
 }
-//
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill
+
+
+function myFunction(str, i) {
+    const myArr = [];
+
+    for (let j=0; i< arr.length; i++) {
+
+    }
+}
 
 
 // -----------------------------------------------
@@ -28,7 +37,13 @@ array.reverse()
 
 console.log(array)
 
-
+/* function reverseArray(arr) {
+    const result = [];
+    for (let i=0;i<arr,length; i++) {
+        result.unshift(arr[i]);
+    }
+    return result;
+} */
 
 
 // -----------------------------------------------
@@ -38,6 +53,7 @@ console.log(array)
 // ---------------------
 
 // Put your answer below -------------------------
+
 /* syntax array.filter(function(currentValue, index, array), 
 thisValue) */
 
@@ -46,6 +62,12 @@ const arr = [3, "test", undefined, null,  5, false, "", 7, NaN];
 const newArray = arr.filter(Boolean);   
 console.log(newArray);
 
+//https://michaeluloth.com/filter-boolean
+/* The filter(Boolean) step does the following:
+
+Passes each item in the array to the Boolean() object
+The Boolean() object coerces each item to true or false depending on whether it's truthy or falsy
+If the item is truthy, we keep it */
 
 
 
@@ -70,8 +92,13 @@ const newStudent = {
  newStudent.name
  //'Amber
 
-
-
+ function reverseArray(arr) {
+    const result = {};
+    for (let i=0;i<arr,length; i++) {
+        result[arr[i][0]] = arr[i][1]; //i is name and 1 is Amber
+    }
+    return result;
+ }
 
 
 
