@@ -86,8 +86,25 @@ const newStudent = {
 // ---------------------
 
 // Put your answer below -------------------------
+// Defining function to get unique values from an array
+function allNames(array){
+    var uniqueArray = [];
+    
+    // Loop through array values
+    for(i=0; i < array.length; i++){
+        if(newArray.indexOf(array[i]) === -1) { //indexOf() method compares searchElement to elements of the array using strict equality
+            newArray.push(array[i]);            //The first index of the element in the array; -1 if not found.
 
 
+        }
+    }
+    return newArray;
+}
+
+var names = ["Rowan", "Aelin", "Chaol", "Dorian", "Aedion", "Aelin"];
+var newNames = allNames(names);
+console.log(newNames); 
+// 5,['Rowan', 'Aelin', 'Chaol', 'Dorian', 'Aedion']
 
 
 
