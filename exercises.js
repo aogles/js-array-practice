@@ -137,7 +137,7 @@ console.log(newNames);
 
 
 
-
+//read up on difference between 'findindex' vs 'indexof'
 
 
 // -----------------------------------------------
@@ -160,7 +160,7 @@ function areEqual(arr1, arr2)
 
     if (r1 != r2)
     return false;
-
+//can use compareNumbers function to sort arrays of numbers otherwise everything defults to a string 
     arr1.sort();
         arr2.sort();
 
