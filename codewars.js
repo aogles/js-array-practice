@@ -1,7 +1,13 @@
 // # 1
 // Testing 1-2-3
 // https://www.codewars.com/kata/54bf85e3d5b56c7a05000cf9/train/javascript
+const newArr = {
 
+    1: "a",
+    2: "b",
+    3: "c",
+};
+newArr.1
 
 
 
@@ -29,3 +35,7 @@
 // #5
 // THE SOUL OF WIT: REVERSE AN ARRAY
 // https://www.codewars.com/kata/59b81886460387d8fc000043
+const array = [0, 1, 2]
+array.reverse()
+
+console.log(array)
