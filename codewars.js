@@ -33,7 +33,7 @@ const arr = N => Array.from{length:N},(_,index)=>index
 
 // I found an answer but dont quite understand it and plan to ask for clarification during lab 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
-
+//read more on splice
 function flyBy(lamps, drone) {
     var lampArr = lamps.split('');
     for (let i=0; i < drone.length; i++) {
@@ -48,8 +48,26 @@ function flyBy(lamps, drone) {
 // # 4
 // Get the mean of an array
 // https://www.codewars.com/kata/563e320cee5dddcf77000158/train/javascript
+// I found an answer but dont quite understand it and plan to ask for clarification during lab 
+function calcAverage(array) {
+    var total = 0;
+    var count = 0;
 
+    jQuery.each(arry, function(index, value) {
+        total += value;
+        count++;
+    });
 
+    return total / count;
+}
+
+console.log(calcAverage(arry));
+
+// Finding the total number of elements in an array (basically, its length)
+  //can be obtained by calculating the length of the array using the length method
+//Finding the sum of all the elements of an array (sum)
+//initialize a variable called ‘total’ and loop over the array and add each element of the array to the ‘total’ variable
+// Dividing the values obtained in Step 1 & 2.(sum/length)
 
 
 // #5
