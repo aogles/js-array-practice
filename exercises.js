@@ -126,10 +126,35 @@ console.log(newNames);
 // Put your answer below -------------------------
 
 
+function areEqual(arr1, arr2)
+{
+    let r1 = arr1.value;
+    let  r2= arr2.value;
 
+    if (r1 != r2)
+    return false;
 
+    arr1.sort();
+        arr2.sort();
 
+        for (let i = 0; i < r1; i++)
+        
+        if (arr1[i] != arr2[i])
+            return false;
 
+            return true;
+        }
+
+        let arr1 = [1, 2, 3, 4, 5];
+        let arr2 = [1, 2, 3, 4];
+
+        if (areEqual(arr1, arr2))
+        document.write("true");
+    else
+        document.write("false");
+
+        //return false
+        
 
 
 
