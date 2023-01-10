@@ -121,7 +121,7 @@ function allNames(array){
     for(i=0; i < array.length; i++){
         if(newArray.indexOf(array[i]) === -1) { //indexOf() method compares searchElement to elements of the array using strict equality
             newArray.push(array[i]);            //The first index of the element in the array; -1 if not found.
-
+//result is the array, if the value exist inside result, if it does not exist it =-1 and that gets pushed to result, if it exist push the result 
 
         }
     }
