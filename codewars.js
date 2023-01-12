@@ -9,6 +9,15 @@ const newArr = {
 };
 newArr.1
 
+for ...Of
+const numbers = [1, 2, 3, 4];
+
+for( const number of numbers) {
+    console.log(number)
+}
+for(const[ index, number] of numbers.entries()) {
+    console log(index, number);
+}
 
 
 // # 2
@@ -77,3 +86,36 @@ const array = [0, 1, 2]
 array.reverse()
 
 console.log(array)
+
+
+/* for ( initial expresson,condition, increment expression) {
+   for (let i=0; i < arr.length; i++)
+}
+we use 'let' because it is block scoped, var will leak out of the expression
+
+for (const [index, number] of numbers.entries()){
+    console.log(index, numbr);
+}
+
+*do Not use for each for return value, forEach is for side effects*
+
+["sally","peter", "eric"].forEach(function(name,index, arr){
+    console.log(name);
+}
+
+[1,2,3].map(function(num){
+    return num *2; new array was have 2,4,6
+}); -transforms, results 
+
+const numbers = [1,2,3,4];
+numbers.filter(function(num){
+    return num >= 3;  //new array will contain anything greater than or equal to 3
+})
+
+[1,2,3].reduce(functions(acc,i){
+    rturn acc +i;  //first two arguments are accumulated value, this will return a singe value 
+})
+
+result for This is 6 
+*/
+
